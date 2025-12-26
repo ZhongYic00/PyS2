@@ -43,7 +43,7 @@ setup(
     python_requires=">=3.6, <4",
     install_requires=[
         "requests >=2.6, <3.0",
-        "pydantic >=1.8, <2.0",
+        "pydantic",
     ],
     extras_require={
         "readthedocs": [

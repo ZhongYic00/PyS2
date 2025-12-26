@@ -12,7 +12,7 @@ logger = logging.getLogger('s2')
 # TODO: time persistent session vs not; if noticeable performance increase
 #       then make session mandatory and remove api_key / build_url
 
-API_URL = "https://api.semanticscholar.org/v1"
+API_URL = "https://api.semanticscholar.org/graph/v1"
 PARTNER_URL = "https://partner.semanticscholar.org/v1"
 
 
